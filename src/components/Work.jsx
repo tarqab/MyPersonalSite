@@ -2,7 +2,7 @@ import React from "react";
 import backgr from "../assets/realestate.jpg";
 import backgrTodo from "../assets/todo.png";
 import backgrBmi from "../assets/BmICalculator.png";
-import backgrChatApp from "../assets/backgrChatApp.png";
+import backgrChatApp from "../assets/backgrChatApp.jpg";
 
 const Work = () => {
   return (
@@ -97,7 +97,7 @@ const Work = () => {
 
               <div className="hidden group-hover:flex justify-center space-x-12 pt-4 ">
                 <a href="https://chat-me-per.web.app/">
-                  <button className="text-demo-code">eaDemo</button>
+                  <button className="text-demo-code">Demo</button>
                 </a>
                 <a href="https://github.com/tarqab/Chat-App">
                   <button className="text-demo-code">Code</button>
