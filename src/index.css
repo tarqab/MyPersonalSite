@@ -147,7 +147,7 @@ justify-center items-center xs:w-[400px]
   @apply flex flex-col max-w-[1000px] w-full 
 }
 .tittle-contact {
-  @apply text-5xl text-white mx-12 font-bold  border-b-4 border-purple-800
+  @apply text-5xl text-white mx-12 font-bold inline-block border-b-4 border-purple-800
 }
 .btn-contact {
   @apply text-white border-2 mx-auto 
