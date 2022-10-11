@@ -9,7 +9,7 @@ const Contact = () => {
         action="https://getform.io/f/9bf2e617-2358-495a-bd2e-6c3b1ed79c93"
       >
         <div className="py-6">
-          <p className="tittle-contact">Contact</p>
+          <p className="tittle-contact">Contact <span className="note">(please use the E-mail for contact)</span></p>
         </div>
         <input
           className="pl-1  bg-gray-200 mx-12 w-auto h-10 rounded-lg"
