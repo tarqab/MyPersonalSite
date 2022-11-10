@@ -3,6 +3,7 @@ import backgr from "../assets/realestate.jpg";
 import backgrTodo from "../assets/todo.png";
 import backgrBmi from "../assets/BmICalculator.png";
 import backgrChatApp from "../assets/backgrChatApp.jpg";
+import ecomerceImage from "../assets/ecommereceImage.png";
 
 const Work = () => {
   return (
@@ -100,6 +101,27 @@ const Work = () => {
                   <button className="text-demo-code">Demo</button>
                 </a>
                 <a href="https://github.com/tarqab/Chat-App">
+                  <button className="text-demo-code">Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${ecomerceImage})` }}
+            className="shadow-lg shadow-slate-800 group         
+             rounded-lg flex flex-col justify-center items-center mx-auto
+             w-[400px] h-96 relative content-div sm:scale-90"
+          >
+            <div className="absolute inset-0 group-hover:bg-gray-700 group-hover:scale-100 group-hover:duration-500">
+              <span className="hidden group-hover:flex justify-center items-center text-4xl text-white mt-[100px] ">
+                Ecommerce Website
+              </span>
+
+              <div className="hidden group-hover:flex justify-center space-x-12 pt-4 ">
+                <a href="https://tareqecommerce.netlify.app/">
+                  <button className="text-demo-code">Demo</button>
+                </a>
+                <a href="https://github.com/tarqab/EcommerceWebsite">
                   <button className="text-demo-code">Code</button>
                 </a>
               </div>
